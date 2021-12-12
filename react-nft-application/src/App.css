@@ -1,9 +1,9 @@
 .app {
-  text-align: center;
+  background-color: #000000;
+  padding: 20px;
+  min-height: 100vh;
+  max-width: 100vw;
 }
-
-
-
 
 
 
