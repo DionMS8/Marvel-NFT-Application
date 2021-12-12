@@ -4,6 +4,7 @@ import "./Header.css"
 // IMPORTING IMAGE FILES
 import animeLogo from "../assets/header/animeLogo.png"
 import searchIcon from "../assets/header/search.png"
+import themeSwitchIcon from "../assets/header/theme-switch.png"
 
 // HEADER SHORTCUT: RAFCE + TAB 
 
@@ -24,7 +25,23 @@ const Header = () => {
                 <div className="searchIconContainer">
                     <img src={searchIcon} alt="search"></img> 
                 </div>
-                <input className="searchInput" type="text" placeholder="Search"></input>
+                <input className="searchInput" type="text" placeholder="Collection, item or user..."></input>
+            </div>
+
+            <div className="headerItems">
+                <p>Drops</p>
+                <p>Marketplace</p>
+                <p>Create</p>
+            </div>
+
+            <div className="headerActions">
+                <div className="themeSwitchContainer">
+                    <img src={themeSwitchIcon} alt="theme-switch"/>
+                </div>
+            </div>
+
+            <div className="loginBtn">
+                GET IN
             </div>
 
         </div>
