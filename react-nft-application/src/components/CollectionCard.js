@@ -1,4 +1,5 @@
 import React from 'react'
+import "./CollectionCard.css"
 import eth from '../assets/eth.png'
 
 
@@ -16,7 +17,7 @@ const CollectionCard = ({ id, name, traits, image }) => {
             <div className="cardDetails"></div>
 
             <div className="cardName">
-                {name} <div className="id"> •#{id}</div>
+                {name} <div className="id"> • #{id}</div>
             </div>
 
             <div className="priceContainer">

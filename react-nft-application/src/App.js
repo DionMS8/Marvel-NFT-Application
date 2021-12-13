@@ -21,13 +21,18 @@ function App() {
         id={0} 
         name={"Ultra Instinct Goku"} 
         traits={[{"value": 7}]} 
-        image="C:\Users\Bryanna Orie\Desktop\React NFT Application\react-nft-application\src\assets\anime\Ultra Instinct.jpg" 
+        image="https://animehunch.com/wp-content/uploads/2020/03/Incomplete-ultra-instinct-e1585578288968.png" 
       />
     </div>
   )
 }
 
 export default App;
+
+
+
+
+
 
 
 
