@@ -15,16 +15,15 @@ const CollectionCard = ({ id, name, traits, image }) => {
 
             <img src={image} alt=""/>
 
-            <div className="cardDetails">
+            <div className="cardDetails">      
                 <div className="cardName">
                     {name} 
                     <div className="id"> • #{id}</div>
                 </div>
-            </div>
-
-            <div className="priceContainer">
-                <img src={eth} className="ethImg" alt=""/>
-                <div className="price">{traits[0]?.value}</div>
+                <div className="priceContainer">
+                    <img src={eth} className="ethImg" alt=""/>
+                    <div className="price">{traits[0]?.value}</div>
+                </div>
             </div>
 
         </div>
@@ -34,6 +33,7 @@ const CollectionCard = ({ id, name, traits, image }) => {
 export default CollectionCard
 
  
+
 
 
 
