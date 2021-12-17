@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import "./CollectionCard.css"
 import eth from '../assets/eth.png'
 
@@ -12,12 +12,14 @@ import eth from '../assets/eth.png'
 const CollectionCard = ({ id, name, traits, image }) => {
     return (
         <div className="collectionCard">
+
             <img src={image} alt=""/>
 
-            <div className="cardDetails"></div>
-
-            <div className="cardName">
-                {name} <div className="id"> • #{id}</div>
+            <div className="cardDetails">
+                <div className="cardName">
+                    {name} 
+                    <div className="id"> • #{id}</div>
+                </div>
             </div>
 
             <div className="priceContainer">
@@ -32,4 +34,6 @@ const CollectionCard = ({ id, name, traits, image }) => {
 export default CollectionCard
 
  
+
+
 
