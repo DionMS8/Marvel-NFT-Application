@@ -1,4 +1,4 @@
-# React-NFT-Application
+# Marvel React NFT Application
 
 ## Table of contents
 * [General info](#general-info)
