@@ -10,15 +10,17 @@
 
 ## General Information
 
-A simple web-based movie streaming system. 
+A web-based NFT collection which runs on the Etheruem Rinkeby test network. 
 
-## Technologies
+## Technologies and Platforms
 
 - HTML5
 - CSS3
 - JavaScript ES6
 - React.js
 - Axios
+- Thirdweb
+- Faucets
 
 ## Screenshots 
 
