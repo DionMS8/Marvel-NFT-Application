@@ -1,7 +1,7 @@
 # Marvel NFT Application
 
 ## Table of contents
-* [General info](#general-info)
+* [General Information](#general-info)
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
 
