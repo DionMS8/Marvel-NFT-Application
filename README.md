@@ -4,8 +4,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
-* [Scope of Functionalities](#scopeoffunctionalities)
-* [References](#references)
 
 
 ## General Information
