@@ -4,11 +4,14 @@ import "./App.css"
 import CollectionCard from "./components/CollectionCard"
 // IMPORTING THE HEADER COMPONENT
 import Header from "./components/Header"
+// IMPORTING THE MAIN COMPONENT
+import Main from "./components/Main"
 // IMPORTING THE PUNKLIST COMPONENT
 import PunkList from "./components/PunkList"
 
 import { useState, useEffect } from "react"
 import axios from "axios"
+
 
 // USING JSX TO COMPOSE THE UI
 // COMPONENT 1: HEADER
@@ -32,10 +35,10 @@ function App() {
     return getMyNfts()
   }, [])
 
-  
   return (
     <div className="app">
       <Header />
+      <Main />  
       <PunkList 
         punkListData={punkListData}
       />
@@ -44,6 +47,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 
