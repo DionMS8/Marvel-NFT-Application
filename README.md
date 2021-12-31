@@ -8,7 +8,7 @@
 
 ## General Information
 
-A web-based NFT collection which runs on the Etheruem Rinkeby test network. The NFT collection was created on Thirdweb and retrieved from the Opensea API using Axios, then displayed on a UI created with React.js.
+A web-based NFT collection which runs on the Etheruem Rinkeby test network. The collection was created on Thirdweb and retrieved from the Opensea API using Axios, then displayed on a UI created with React.js.
 
 ## Technologies
 
