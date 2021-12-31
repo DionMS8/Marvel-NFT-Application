@@ -10,13 +10,16 @@
 
 A web-based NFT collection which runs on the Etheruem Rinkeby test network. 
 
-## Technologies and Platforms
+## Technologies
 
 - HTML5
 - CSS3
 - JavaScript ES6
 - React.js
 - Axios
+
+## Web 3.0 Platforms
+
 - Thirdweb
 - Faucets
 
