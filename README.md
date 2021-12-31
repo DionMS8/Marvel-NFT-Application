@@ -14,7 +14,7 @@ A web-based NFT collection which runs on the Etheruem Rinkeby test network.
 
 - HTML5
 - CSS3
-- JavaScript ES6
+- JavaScript 
 - React.js
 - Axios
 
