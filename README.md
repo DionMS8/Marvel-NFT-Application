@@ -1,24 +1,25 @@
 # Marvel NFT Application
 
 ## Table of contents
-* [General info](#general-info)
+* [General Description](#general-info)
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
-* [Scope of Functionalities](#scopeoffunctionalities)
-* [References](#references)
 
 
-## General Information
+## General Description
 
-A web-based NFT collection which runs on the Etheruem Rinkeby test network. 
+A web-based NFT collection which runs on the Etheruem Rinkeby test network. The collection was created on Thirdweb and retrieved from the Opensea API using Axios, then displayed on a UI created with React.js.
 
-## Technologies and Platforms
+## Web Dev Technologies
 
 - HTML5
 - CSS3
-- JavaScript ES6
+- JavaScript 
 - React.js
 - Axios
+
+## Web 3.0 Technologies
+
 - Thirdweb
 - Faucets
 
