@@ -10,7 +10,7 @@
 
 A web-based NFT collection which runs on the Etheruem Rinkeby test network. The collection was created on Thirdweb and retrieved from the Opensea API using Axios, then displayed on a UI created with React.js.
 
-## Technologies
+## Web Dev Technologies
 
 - HTML5
 - CSS3
@@ -18,7 +18,7 @@ A web-based NFT collection which runs on the Etheruem Rinkeby test network. The 
 - React.js
 - Axios
 
-## Web 3.0 Platforms
+## Web 3.0 Technologies
 
 - Thirdweb
 - Faucets
