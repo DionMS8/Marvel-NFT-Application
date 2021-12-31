@@ -1,15 +1,15 @@
 .punkList {
     cursor: pointer;
     display: flex;
-    overflow: scroll
+    overflow: scroll;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
 }
 
-.punkList::webkit-scrollbar {
-    display: none
+.punkList::-webkit-scrollbar {
+    display: none;
 }
-
-
-
 
 
 
