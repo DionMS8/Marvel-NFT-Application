@@ -2,7 +2,8 @@
 
 ## Table of contents
 * [General Description](#general-info)
-* [Technologies](#technologies)
+* [Web Dev Technologies](#technologies)
+* [Web 3.0 Technologies](#technologies)
 * [Screenshots](#screenshots)
 
 
