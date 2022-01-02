@@ -21,7 +21,7 @@ A web-based NFT collection which runs on the Etheruem Rinkeby test network. The 
 
 ## Web 3.0 Technologies
 
-- Opeansea API
+- Opensea API
 - Thirdweb
 - Faucets
 
