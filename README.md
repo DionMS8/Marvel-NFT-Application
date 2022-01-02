@@ -31,9 +31,9 @@ A web-based NFT collection which runs on the Etheruem Rinkeby test network. The 
 
 ![image](https://user-images.githubusercontent.com/55777067/147867105-a1b3400d-dad2-4c81-a805-c7a779cc1a40.png)
 
-![image](https://user-images.githubusercontent.com/55777067/147867120-c8bfc8c5-c9c4-4de2-9e6b-0f8511cd967f.png)
+![image](https://user-images.githubusercontent.com/55777067/147867148-0c3eb9fa-32b0-4c91-93d3-fa694d7ac498.png)
 
-![image](https://user-images.githubusercontent.com/55777067/147867128-e7ecdd9b-3fab-4071-8dec-e2abd4392492.png)
+![image](https://user-images.githubusercontent.com/55777067/147867157-a3c891d9-d825-400b-a05e-a66fdd95ab32.png)
 
 
 
