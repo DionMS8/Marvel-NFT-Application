@@ -1,7 +1,5 @@
 // IMPORTING THE CSS FILE FOR APP
 import "./App.css"
-// IMPORTING THE COLLECTION CARD COMPONENT
-import CollectionCard from "./components/CollectionCard"
 // IMPORTING THE HEADER COMPONENT
 import Header from "./components/Header"
 // IMPORTING THE MAIN COMPONENT
@@ -23,13 +21,13 @@ import axios from "axios"
 function App() {
 
   const [punkListData, setPunkListData] = useState([])
-
+  const [selectedPunk, setSelectedPunk] = useState(0)
+  
   useEffect(() => {
     const getMyNfts = async () => {
       const openseaData = await axios.get(
         "https://testnets-api.opensea.io/assets?order_direction=asc&asset_contract_address=0xA763e041c039fF9487b45fa3c93025EEAC89D787"
       )
-      console.log(openseaData.data.assets)
       setPunkListData(openseaData.data.assets)
     }
     return getMyNfts()
@@ -38,10 +36,20 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Main />  
-      <PunkList 
-        punkListData={punkListData}
-      />
+      { 
+        punkListData.length > 0 && (
+        <>
+        <Main 
+        punkListData={punkListData} 
+        selectedPunk = {selectedPunk} 
+        />  
+        <PunkList 
+          punkListData={punkListData} 
+          setSelectedPunk = {setSelectedPunk}
+        />
+        </>
+        )
+      }
     </div>
   )
 }

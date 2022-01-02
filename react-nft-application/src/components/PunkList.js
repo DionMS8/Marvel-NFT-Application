@@ -13,17 +13,17 @@ import "./PunkList.css"
 // FOR EACH PUNK IN PUNKLISTDATA, THE DATA WILL
 // BE PASSED TO A NEW COLLECTION CARD COMPONENT
 
-const PunkList = ({ punkListData }) => {
+const PunkList = ({ punkListData, setSelectedPunk }) => {
     return (
        <div className="punkList">
-           {punkListData.map(punk => (
-                <div>
+           { punkListData.map(punk => (
+                <div onClick = {() => setSelectedPunk(punk.token_id)}>
                     <CollectionCard 
-                    key={punk.token_id}
-                    id={punk.token_id}
-                    name={punk.name}
-                    traits={punk.traits}
-                    image={punk.image_original_url}
+                        key={punk.token_id}
+                        id={punk.token_id}
+                        name={punk.name}
+                        traits={punk.traits}
+                        image={punk.image_original_url}
                     />
                 </div>
            ))}

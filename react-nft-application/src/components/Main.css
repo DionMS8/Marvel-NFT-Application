@@ -1,0 +1,102 @@
+.main {
+    max-height: 50vh;
+}
+
+.mainContent {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.punkHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punkContainer {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.selectedPunk {
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 30vw;
+}
+
+.punkDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+
+.title {
+    font-size: 70px; 
+    font-weight: 800;
+}
+
+.itemNumber {
+    color: rgb(55, 139, 172);
+    font-size: 60px;
+    align-self: center;
+}
+
+
+/* STYLING THE OWNER SECTION */
+
+.owner {
+    display: flex;
+    height: 50px;
+    margin: 10px 0;
+}
+
+owner > div {
+    margin: 0 5px;
+}
+
+.ownerImageContainer {
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+ownerImageContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.ownerAddressAndHandle {
+    color: #fff;
+    flex: 1;
+    margin: 15px;
+}
+
+.ownerLink {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 0 0 0 10px;
+    padding: 12px;
+}
+
+.ownerLink > img {
+    height: 100%;
+    width: 100%;
+}
+
+
