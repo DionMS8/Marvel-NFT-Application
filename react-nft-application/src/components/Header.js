@@ -6,12 +6,13 @@ import animeLogo from "../assets/header/animeLogo.png"
 import searchIcon from "../assets/header/search.png"
 import themeSwitchIcon from "../assets/header/theme-switch.png"
 
-// HEADER SHORTCUT: RAFCE + TAB 
+// COMPONENT SHORTCUT: RAFCE + TAB 
 
 // 1. CREATE A CONSTANT FOR THE COMPONENT
 // 2. ASSIGN IT TO AN ARROW FUNCTION
 // 3. RETURN THE COMPONENT
-// 4. EXPORT THE COMPONENT
+// 4. CREATE A DIV WITH A CLASSNAME OF THE NAME OF THE COMPONENT
+// 5. EXPORT THE COMPONENT
 
 const Header = () => {
     return (
@@ -40,17 +41,13 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="loginBtn">
-                GET IN
-            </div>
+            <div className="loginBtn">GET IN</div>
 
         </div>
     )
 }
 
 export default Header
-
-
 
 
 
